@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "autoresearch": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/autoresearch/SKILL.md",
+      "computedHash": "a7d41f6766192891ba7f0f4cd395df2ad576cf1af9a5ce718d1b5789305f2e90"
+    },
+    "brainstorming": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "computedHash": "3d898aa741852ad3f01954ba69c3b5b5e132931a570ca6319138bb610747f9c4"
+    },
+    "find-rules": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-rules/SKILL.md",
+      "computedHash": "83c250b0fd70e94eb9b28390275677d3fe48c91b8e9e1a34f97ef071e35cf3de"
+    },
+    "find-skills": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "6412eb4eb3b91595ebab937f0c69501240e7ba761b3d82510b5cf506ec5c7adc"
+    },
+    "firecrawl": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/firecrawl/SKILL.md",
+      "computedHash": "f79f957689cc705613a2731f2f35360192fc9a6a28bc3de73484c973621df5ed"
+    },
+    "git-rebase": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/git-rebase/SKILL.md",
+      "computedHash": "9533aaf0356fdfebe23a5f3d962383b06e25b11973c08b3e4f873c0ea5fb8953"
+    },
+    "mastra": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/mastra/SKILL.md",
+      "computedHash": "e007a255b36b3b62c0780b7d742f0df6b21f1f20e135e92f4c580243ea9494c5"
+    },
+    "no-workarounds": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/no-workarounds/SKILL.md",
+      "computedHash": "dd6f77b4698f1e67afc6e81aef8515e29f98f0b3d5487bb4940211a38140ce3b"
+    },
+    "skill-best-practices": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-best-practices/SKILL.md",
+      "computedHash": "b39b873b9becf59f9a515809efd08c0547cd94c0296873032d3206705189b2ab"
+    }
+  }
+}
