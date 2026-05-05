@@ -10,7 +10,8 @@
         "start": "mastra start",
         "typecheck": "tsc --noEmit",
         "ingest": "node --experimental-strip-types src/rag/ingest.ts",
-        "ask": "node --experimental-strip-types src/rag/ask.ts"
+        "ask": "node --experimental-strip-types src/rag/ask.ts",
+        "eval:helpdesk": "tsx --env-file=.env src/mastra/evals/helpdesk-eval.ts"
     },
     "keywords": [],
     "author": "",
@@ -36,6 +37,7 @@
     "devDependencies": {
         "@types/node": "^25.6.0",
         "mastra": "^1.6.1",
+        "tsx": "^4.21.0",
         "typescript": "^6.0.3"
     }
 }
