@@ -20,3 +20,6 @@ src/mastra/public
 /workspace/sources
 /workspace/publications
 /workspace/archive
+
+**.duckdb
+**.duckdb.wal
