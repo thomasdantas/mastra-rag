@@ -15,13 +15,14 @@ import { contentWorkflow } from './workflows';
 import { writerAgent } from './agents/writer-agent';
 import { editorAgent } from './agents/editor-agent';
 import { factCheckAgent } from './agents/fact-check-agent';
+import { helpdeskBomDiaScorer } from './scorers/helpdesk-scorer';
 
 export const mastra = new Mastra({
     agents: { weatherAgent, helpdeskAgent, researchAgent, writerAgent, factCheckAgent, editorAgent },
     vectors: { sources: vectorStore },
     workspace,
     workflows: { weatherWorkflow, contentWorkflow },
-    scorers: { toolCallAppropriatenessScorer, completenessScorer, translationScorer },
+    scorers: { toolCallAppropriatenessScorer, completenessScorer, translationScorer, helpdeskBomDiaScorer },
     storage: new MastraCompositeStore({
         id: 'composite-storage',
         default: new PostgresStore({
